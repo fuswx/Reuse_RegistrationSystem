@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Reuse_RegistrationSystem.iml" filepath="$PROJECT_DIR$/Reuse_RegistrationSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/System_dao/System_dao.iml" filepath="$PROJECT_DIR$/System_dao/System_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/System_domain/System_domain.iml" filepath="$PROJECT_DIR$/System_domain/System_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/System_service/System_service.iml" filepath="$PROJECT_DIR$/System_service/System_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/System_utils/System_utils.iml" filepath="$PROJECT_DIR$/System_utils/System_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/System_web/System_web.iml" filepath="$PROJECT_DIR$/System_web/System_web.iml" />
+    </modules>
+  </component>
+</project>
