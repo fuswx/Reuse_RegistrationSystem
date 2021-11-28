@@ -1,0 +1,46 @@
+body {
+    background-color: #ecf0f5;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    background-color: #9d9d9d;
+}
+::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+body {
+    overflow: scroll!important;
+    min-width: 300px;
+}
+.content-wrapper{
+    min-width: 300px;
+}
+#changePageSize {
+    width: 10%;
+    display: inline-block;
+    min-width: 60px;
+}
+#changePageSizeDiv {
+    color: rgba(0,0,0,0.8);
+    font-weight: 700;
+    font-size: 14px;
+    width: 49%;
+    min-width: 200px;
+}
+#pageChangeDiv {
+    width: 49%;
+    min-width: 350px;
+}
+#pageChangeDiv ul {
+    float: right!important;
+    margin: 0;
+}
+
+

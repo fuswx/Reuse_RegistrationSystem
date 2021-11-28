@@ -1,0 +1,163 @@
+input,textarea,select {
+    outline: none!important;
+}
+body {
+    overflow: scroll!important;
+    min-width: 300px;
+}
+.content-wrapper{
+    min-width: 300px;
+}
+.content {
+    margin-top: 60px;
+    width: 95%;
+    background-color: white;
+    padding-left: 60px;
+    min-width: 350px;
+}
+.content-header {
+    display: block;
+}
+
+.input-text {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid cornflowerblue;
+    margin-left: 10px;
+}
+
+.input-question {
+    display: block;
+    margin-top: 30px;
+}
+
+#title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#name {
+    display: block;
+    margin-top: 50px;
+}
+
+#pageTitle {
+    margin: 0 auto;
+}
+#pageTitle h3 {
+    text-align: center;
+}
+
+.detail {
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.detail-title {
+    height: 30px!important;
+}
+.detail-title div {
+    float: left;
+}
+
+.detail-title input {
+    font-size: 20px;
+    font-weight: 600;
+}
+.detail-content {
+    margin-top: 10px;
+}
+
+.detail-text {
+    margin-left: 5px;
+}
+
+
+.detail-warp {
+    display: block;
+    margin-top: 10px;
+}
+.removeButton:hover,.addButton:hover {
+    background-color: #f4f4f4;
+    color: cornflowerblue;
+}
+.removeButton,.addButton {
+    width: 60px;
+    height: 30px;
+    background-color: cornflowerblue;
+    margin-left: 5px;
+    outline: none;
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+    color: #f4f4f4;
+    transition: all 0.3s linear;
+}
+.mult-text {
+    width: 40px;
+}
+/*导航栏*/
+header {
+    width: 100%;
+    height: 35px;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+}
+
+header .header {
+    display: block;
+    width: 10%;
+    height: 35px;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: cornflowerblue;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    position: fixed;
+    right: 3%;
+    transition: all 0.3s linear;
+    min-width: 120px;
+}
+
+
+
+header .header:hover {
+    background-color: cornflowerblue;
+    color: #f4f4f4;
+}
+
+
+#main-header {
+    top: 100px;
+    overflow: hidden;
+}
+
+.error-Inf {
+    display: none;
+    width: 10%;
+    max-width: 100px;
+    height: 20px;
+    color: cornflowerblue;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.error-Inf i {
+    color: cornflowerblue;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+.error-Div {
+    display: inline-block;
+    background-color: #f4f4f4;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    float: right;
+}
+
+/*导航栏*/

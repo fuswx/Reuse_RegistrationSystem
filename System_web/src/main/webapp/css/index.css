@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body,html {
+    scroll-behavior: smooth;
+    transition: all 1s linear;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 20%;
+    margin-left: 5%;
+}
+.logo img {
+    height: 100%;
+}
+
+#see-window {
+    position: relative;
+    width: 100%;
+
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding-top: 3%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.first-line {
+    float: left;
+    margin-left: 7%;
+}
+
+.second-line {
+    float: left;
+    margin-left: 3%;
+    margin-top: 8%;
+
+}
+
+.second-line h2,.first-line h1,.third-line h3 {
+    font-family: 华文中宋,宋体;
+}
+
+.third-line {
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+
+.register {
+    display: block;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    width: 12%;
+    height: 4%;
+    background-color: cornflowerblue;
+    color: #f4f4f4;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 0.5s;
+    text-align: center;
+    min-width: 180px;
+    min-height: 60px;
+}
+.register:hover {
+    color: cornflowerblue;
+    background-color: #f4f4f4;
+    border: 3px solid cornflowerblue;
+}
+.register::before{
+    display: inline-block;
+    content: "";
+    height: 100%;
+    vertical-align: middle;
+}
+
+#echarts {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 70%;
+}
+
+#echart-one {
+    width: 48%;
+    height: 100%;
+    float: left;
+}
+#echart-two {
+    background-color: #f4f4f4;
+    width: 48%;
+    height: 100%;
+    float: right;
+}
+
+

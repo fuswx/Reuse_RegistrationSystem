@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul ol {
+    list-style: none;
+}
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: -150px;
+    position: relative;
+}
+#chooseLogin {
+    padding-top: 20px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 300px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+}
+#chooseLogin p {
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3c3c3c;
+    text-align: center;
+}
+
+#chooseLogin p:nth-child(3) {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#userLogin,#register {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: cornflowerblue;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+#register {
+    text-align: center;
+    line-height: 50px;
+}
+#registerA {
+    margin: 0px auto;
+    display: block;
+    width: 300px;
+    height: 50px;
+}
+
+#screen {
+    margin-top: -100px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 5;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#user {
+    padding-top: 10px;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    top: 200px;
+    display: none;
+}
+.close {/*关闭按钮*/
+    color: #f4f4f4;
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+    z-index: 5;
+    top: 10px;
+    right: 20px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 5px;
+}
+.close:hover {
+    background-color: cornflowerblue;
+}
+div,#user div {
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+#screen p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #3c3c3c;
+    text-align: center;
+}
+#user div span{
+    color: #3c3c3c;
+    font-size: 14px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+#user div input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    font-size: 12px;
+    float: right;
+    margin-right: 200px;
+    background-color: rgba(255,255,255,0);
+    border: 0px;
+    border-bottom: 3px solid cornflowerblue;
+    padding-left: 10px;
+}
+.checkText {
+    margin-right: 30px!important;
+}
+    /*针对验证码*/
+.checkCode img{
+    cursor: pointer;
+    float: right;
+    display: block;
+    margin-right: 70px;
+    margin-top: -10px;
+}
+.button {
+    width: 100%;
+    height: 30px;
+}
+#button1 .login,
+#button1 .reset,
+#button2 .login,
+#button2 .reset
+{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f4f4f4;
+    padding-left: 0;
+}
+#button1 .login,
+#button2 .login {
+    margin-left: 130px;
+}
+#button1 .reset,
+#button2 .reset {
+    margin-left: 50px;
+}
+#error {
+    margin: 20px auto;
+    width: 200px;
+    height: 50px;
+    top: 550px;
+    left: 600px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    display: none;
+}
+
+#button2 .login {
+    width: 300px;
+    height: 50px;
+    margin-left: 70px;
+}
+

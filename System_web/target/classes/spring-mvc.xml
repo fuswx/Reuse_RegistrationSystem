@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop
+		   http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--扫描controller的注解，别的不扫描-->
+    <context:component-scan base-package="fuswx.controller"/>
+
+    <!--配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="viewResolver">
+        <property name="suffix" value=".jsp"/>
+        <property name="prefix" value="/pages/"/>
+    </bean>
+<!--    &lt;!&ndash;转化json&ndash;&gt;-->
+<!--    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">-->
+<!--        <property name="messageConverters">-->
+<!--            <list>-->
+<!--                &lt;!&ndash;json视图拦截器，读取到@ResponseBody的时候去配置它&ndash;&gt;-->
+<!--                <ref bean="mappingJacksonHttpMessageConverter"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean class="org.springframework.http.converter.cbor.MappingJackson2CborHttpMessageConverter" id="mappingJacksonHttpMessageConverter">-->
+<!--        <property name="supportedMediaTypes">-->
+<!--            <list>-->
+<!--                <value>application/json;charset=UTF-8</value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+    <!--设置静态资源不过滤-->
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+    <mvc:resources mapping="/plugins/**" location="/plugins/"/>
+    <mvc:resources mapping="/img/**" location="/img/"/>
+
+    <!--开启对mvc的注解支持-->
+    <mvc:annotation-driven/>
+
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+
+
+</beans>

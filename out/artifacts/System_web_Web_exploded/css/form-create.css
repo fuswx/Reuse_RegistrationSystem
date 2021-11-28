@@ -1,0 +1,315 @@
+input::-webkit-input-placeholder {
+    color: #3c3c3c;
+}
+
+input,textarea {
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+header {
+    width: 100%;
+    height: 35px;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+}
+
+header .header {
+    display: block;
+    width: 10%;
+    height: 35px;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #f4f4f4;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    left: 80%;
+    transition: all 0.3s linear;
+}
+
+
+
+header .header:hover {
+    background-color: #f4f4f4;
+    color: cornflowerblue;
+}
+
+header .header:nth-child(3),
+header .header:nth-child(4) {
+    float: right;
+}
+
+
+
+header .header:first-child {
+    left: 89%;
+    background-color: cornflowerblue;
+}
+
+header .header:nth-child(2) {
+    left: 78%;
+
+}
+
+header .header:nth-child(3) {
+    margin-left: 2px;
+    font-size: 12px;
+    left: 67%;
+}
+
+#main-header {
+    top: 100px;
+    overflow: hidden;
+}
+
+header .header:nth-child(4) {
+    left: 56%;
+}
+
+
+
+header .header:nth-child(1):hover {
+    background-color: #f4f4f4;
+    color: cornflowerblue;
+}
+
+#left-box,
+#right-box {
+    float: left;
+}
+
+#left-box {
+    width: 15%;
+    margin-top: 60px;
+    min-width: 70px;
+    height: 1000px;
+}
+#right-box {
+    background-color: white;
+    width: 73%;
+    margin-top: 75px;
+    margin-right: 2%;
+    float: right;
+}
+
+#tab-treetable {
+    height: 700px;
+    width: 20%;
+    position: fixed;
+    overflow-y: auto;
+    top: 140px;
+    margin-right: 0px;
+    background-color: white;
+}
+
+#chooseForm > thead > tr > th{
+    margin-bottom: 5px;
+}
+
+.option {
+    width: 18%;
+}
+
+.option > td {
+    width: 18%;
+    font-size: 12px!important;
+    text-align: left!important;
+    height: 60px;
+    padding-top: 20px!important;
+}
+
+.option >td >span {
+    padding-left: 0!important;
+}
+
+.option > td:hover {
+    background-color: cornflowerblue;
+    color: #f4f4f4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option-title {
+    width: 10% !important;
+    height: 60px!important;
+}
+
+.option-title > td {
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    padding-top: 20px!important;
+}
+.option-title > td:last-child {
+    border-radius: 0 0 5px 5px!important;
+}
+
+#option-head > th {
+    width: 10%!important;
+    padding-right: 0 !important;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: #f4f4f4;
+}
+
+#title-div {
+    width: 100%;
+    height: 120px;
+    cursor: pointer;
+}
+#title {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2px;
+}
+#title-text {
+    display: block;
+    width: 100%;
+    height: 70px;
+    cursor: text;
+    border: solid 2px cornflowerblue;
+    background-color: white;
+    text-align: center;
+}
+
+#others {
+    width: 95%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 5%;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-right: 3%;
+}
+
+#others > #others-content {
+    width: 100%;
+    height: 60px;
+    margin-right: 3%;
+    display: block;
+    text-align: left;
+    border: 2px solid cornflowerblue;
+    line-height: 20px;
+    background-color: white;
+    cursor: text;
+}
+
+/*类型选择预览*/
+#show-box {
+    width: 500px;
+    background-color: rgba(255,255,255,0.9);
+    position: absolute;
+    display: none;
+    transition: 1s;
+    border-radius: 10px;
+}
+#input-title {
+    width: 95%;
+    height: 30px;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#box-checked {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input-warp {
+    display: block;
+}
+
+.radio-text {
+    font-size: 16px;
+    font-weight: 600;
+}
+.input-font-text {
+    border: 2px solid cornflowerblue;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+.input-mul-warp {
+    display: block;
+    margin-top: 10px;
+}
+.input-mul-warp:nth-child(0) {
+    margin-top: 0;
+}
+.input-font-mul-text {
+    margin-left: 5px;
+    border-bottom: 2px solid cornflowerblue;
+    background-color: #f1f1f1;
+}
+
+/*右边*/
+
+.detail {
+    margin-left: 40px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.detail-title input {
+    font-size: 20px;
+    font-weight: 600;
+}
+.detail-content {
+    margin-top: 10px;
+}
+
+.detail-text {
+    margin-left: 5px;
+}
+
+
+.detail-warp {
+    display: block;
+    margin-top: 10px;
+}
+.removeButton:hover,.addButton:hover {
+    background-color: #f4f4f4;
+    color: cornflowerblue;
+}
+.removeButton,.addButton {
+    width: 60px;
+    height: 30px;
+    background-color: cornflowerblue;
+    margin-left: 5px;
+    outline: none;
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+    color: #f4f4f4;
+    transition: all 0.3s linear;
+}
+.mult-text {
+    width: 80px;
+    text-align: center;
+}
+
+/*!*编辑器*!*/
+/*.box ,.box-success {*/
+/*    border-top: 4px solid cornflowerblue!important;*/
+/*}*/
+
+/*#form-text {*/
+/*    display: none;*/
+/*}*/
